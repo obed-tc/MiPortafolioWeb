@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
 
-    max-width: 1692px;
+    max-width: 992px;
 }
 .nav-link{
     color: white;
