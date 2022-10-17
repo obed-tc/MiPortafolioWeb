@@ -1,6 +1,5 @@
 
 
-
  * {
     margin: 0;
     box-sizing: border-box;
@@ -250,6 +249,11 @@
         background-color: white;
         font-weight: bold;
         font-size: 6px;
+      }
+      footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
       }
     
   }
