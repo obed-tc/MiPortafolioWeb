@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+
+}
+body {
+    font-family: sans-serif;
+    /* padding: 90px 20px 0; */
+  }
+  
+.div-portada{
+
+        background-image: url("https://www.komolakrafts.com/wp-content/uploads/2019/01/material-para-manualidades.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        
+        width: 100%;
+        height: 500px;
+        
+        display: flex;
+        justify-content: center;
+}
+.div-portada-img{
+    background-color: rgba(107, 209, 26, 0.5);
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    padding: 50px;
+    margin: 50px;
+   
+}
+
+.imginterior{
+    height: 260px;
+    width: 700px;
+}
+.imglogo{
+    position:absolute;
+    margin-left: 40%;
+}
+.botones-portada{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.boton{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #6bd11a;
+    margin-left: 10px;
+}
+
+
+.div-elementos{
+    background-color: #bfe81a;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;    
+}
+.div-element{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15%;
+    margin-left: 100px;
+
+}
+.titulo{
+    background-color: #6bd11a;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 25px;
+    margin: 10px 0px;
+
+}
+.div-items{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;  
+}
+.item{
+    height: 150px;
+    width: 300px;
+    background-color: #bfe81a;
+    border-radius: 5%;
+    margin-left: 100px;
+
+}
+@media (max-width:768px){
+.div-portada{
+
+        background-size: 100% 300px;
+        
+        width: 100%;
+        height: 300px;
+        
+        justify-content: center;
+}
+.div-portada-img{
+    background-color: rgba(107, 209, 26, 0.5);
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    margin: 50px;
+   
+}
+
+.imginterior{
+    height: 100px;
+    width: 200px;
+}
+.imglogo{
+    width: 50px;
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+.botones-portada{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.boton{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #6bd11a;
+    margin-left: 10px;
+}
+
+
+.div-elementos{
+    background-color: #bfe81a;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;    
+}
+.div-element{
+    height: 50px;
+    width: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.titulo{
+    background-color: #6bd11a;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 5px 0px;
+
+}
+.div-items{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;  
+}
+.item{
+    height: 50px;
+    width: 80px;
+    background-color: #bfe81a;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+}
